@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free divorce filing guides for all 50 states. Step-by-step instructions, costs, timelines, and required forms. File for divorce yourself in 2026.">
+    <meta name="keywords" content="divorce guide, how to file for divorce, divorce cost by state, DIY divorce, divorce filing fee, uncontested divorce">
+    <title>StateDivorceGuide.com - Free Divorce Filing Guides for All 50 States (2026)</title>
+    <link rel="canonical" href="https://statedivorceGuide.com/">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "StateDivorceGuide.com",
+      "url": "https://statedivorceeguide.com",
+      "description": "Free, comprehensive divorce filing guides for all 50 US states",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://statedivorceeguide.com/{search_term_string}-divorce.html",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.6; color: #2c3e50; background: #f8f9fa; }
+        
+        .hero { background: linear-gradient(135deg, #8e44ad 0%, #9b59b6 100%); color: white; padding: 4rem 1rem; text-align: center; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; font-weight: 700; }
+        .hero .tagline { font-size: 1.3rem; opacity: 0.9; max-width: 700px; margin: 0 auto 2rem; }
+        .hero-stats { display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 2rem; }
+        .hero-stat { text-align: center; }
+        .hero-stat .number { font-size: 2.5rem; font-weight: 700; }
+        .hero-stat .label { font-size: 0.9rem; opacity: 0.8; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        .state-selector { max-width: 600px; margin: -30px auto 2rem; position: relative; z-index: 10; }
+        .state-selector select { width: 100%; padding: 1.2rem 1.5rem; font-size: 1.1rem; border: none; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.15); appearance: none; background: white url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232c3e50'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e") no-repeat right 1rem center/1.5rem; cursor: pointer; color: #2c3e50; }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+        
+        .section-title { font-size: 2rem; color: #8e44ad; margin: 2rem 0 1.5rem; text-align: center; }
+        .section-subtitle { text-align: center; color: #7f8c8d; margin-bottom: 2rem; font-size: 1.1rem; }
+        
+        .popular-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 3rem; }
+        .state-card { background: white; border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .state-card:hover { transform: translateY(-3px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        .state-card h3 { font-size: 1.3rem; color: #8e44ad; margin-bottom: 0.8rem; }
+        .state-card .cost { display: inline-block; background: #e8f5e9; color: #27ae60; padding: 0.3rem 0.8rem; border-radius: 5px; font-weight: 600; margin-bottom: 0.5rem; font-size: 0.95rem; }
+        .state-card .timeline { color: #7f8c8d; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .state-card .features { font-size: 0.9rem; color: #555; line-height: 1.5; }
+        
+        .all-states { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0; }
+        .state-link { background: white; padding: 1rem; border-radius: 8px; text-decoration: none; color: #2c3e50; transition: all 0.2s; display: block; text-align: center; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .state-link:hover { background: #8e44ad; color: white; transform: translateY(-2px); box-shadow: 0 3px 10px rgba(142,68,173,0.2); }
+        
+        .info-box { background: #fff3cd; border-left: 4px solid: #ffc107; padding: 1.5rem; margin: 2rem auto; max-width: 800px; border-radius: 5px; }
+        .info-box h3 { color: #856404; margin-bottom: 0.5rem; }
+        
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 1rem; margin-top: 4rem; }
+        footer a { color: #ecf0f1; text-decoration: none; }
+        
+        .ad-slot { background: #ecf0f1; border: 2px dashed #bdc3c7; padding: 2rem; text-align: center; color: #7f8c8d; margin: 2rem 0; border-radius: 8px; font-size: 0.9rem; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero .tagline { font-size: 1.1rem; }
+            .hero-stats { gap: 1.5rem; }
+            .popular-grid { grid-template-columns: 1fr; }
+            .all-states { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>File for Divorce Yourself</h1>
+        <p class="tagline">Free, step-by-step guides for all 50 states. No lawyers required for uncontested divorce.</p>
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="number">50</div>
+                <div class="label">States Covered</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">100%</div>
+                <div class="label">Free Guides</div>
+            </div>
+            <div class="hero-stat">
+                <div class="number">2026</div>
+                <div class="label">Updated Info</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="state-selector">
+        <select onchange="if(this.value) window.location.href=this.value;">
+            <option value="">Select Your State...</option>
+            <option value="alabama-divorce.html">Alabama</option>
+            <option value="alaska-divorce.html">Alaska</option>
+            <option value="arizona-divorce.html">Arizona</option>
+            <option value="arkansas-divorce.html">Arkansas</option>
+            <option value="california-divorce.html">California</option>
+            <option value="colorado-divorce.html">Colorado</option>
+            <option value="connecticut-divorce.html">Connecticut</option>
+            <option value="delaware-divorce.html">Delaware</option>
+            <option value="florida-divorce.html">Florida</option>
+            <option value="georgia-divorce.html">Georgia</option>
+            <option value="hawaii-divorce.html">Hawaii</option>
+            <option value="idaho-divorce.html">Idaho</option>
+            <option value="illinois-divorce.html">Illinois</option>
+            <option value="indiana-divorce.html">Indiana</option>
+            <option value="iowa-divorce.html">Iowa</option>
+            <option value="kansas-divorce.html">Kansas</option>
+            <option value="kentucky-divorce.html">Kentucky</option>
+            <option value="louisiana-divorce.html">Louisiana</option>
+            <option value="maine-divorce.html">Maine</option>
+            <option value="maryland-divorce.html">Maryland</option>
+            <option value="massachusetts-divorce.html">Massachusetts</option>
+            <option value="michigan-divorce.html">Michigan</option>
+            <option value="minnesota-divorce.html">Minnesota</option>
+            <option value="mississippi-divorce.html">Mississippi</option>
+            <option value="missouri-divorce.html">Missouri</option>
+            <option value="montana-divorce.html">Montana</option>
+            <option value="nebraska-divorce.html">Nebraska</option>
+            <option value="nevada-divorce.html">Nevada</option>
+            <option value="new-hampshire-divorce.html">New Hampshire</option>
+            <option value="new-jersey-divorce.html">New Jersey</option>
+            <option value="new-mexico-divorce.html">New Mexico</option>
+            <option value="new-york-divorce.html">New York</option>
+            <option value="north-carolina-divorce.html">North Carolina</option>
+            <option value="north-dakota-divorce.html">North Dakota</option>
+            <option value="ohio-divorce.html">Ohio</option>
+            <option value="oklahoma-divorce.html">Oklahoma</option>
+            <option value="oregon-divorce.html">Oregon</option>
+            <option value="pennsylvania-divorce.html">Pennsylvania</option>
+            <option value="rhode-island-divorce.html">Rhode Island</option>
+            <option value="south-carolina-divorce.html">South Carolina</option>
+            <option value="south-dakota-divorce.html">South Dakota</option>
+            <option value="tennessee-divorce.html">Tennessee</option>
+            <option value="texas-divorce.html">Texas</option>
+            <option value="utah-divorce.html">Utah</option>
+            <option value="vermont-divorce.html">Vermont</option>
+            <option value="virginia-divorce.html">Virginia</option>
+            <option value="washington-divorce.html">Washington</option>
+            <option value="west-virginia-divorce.html">West Virginia</option>
+            <option value="wisconsin-divorce.html">Wisconsin</option>
+            <option value="wyoming-divorce.html">Wyoming</option>
+        </select>
+    </div>
+
+    <!-- Ad Slot 1 -->
+    <div class="ad-slot">
+        [ Advertisement Slot - Google AdSense Placeholder ]
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Most Popular States</h2>
+        <p class="section-subtitle">Quick access to the states with the most divorce filings</p>
+
+        <div class="popular-grid">
+            <a href="california-divorce.html" class="state-card">
+                <h3>📍 California Divorce</h3>
+                <div class="cost">Filing Fee: $435-$450</div>
+                <div class="timeline">⏱️ Timeline: 6+ months minimum</div>
+                <div class="features">✓ No-fault state<br>✓ Community property<br>✓ 6-month residency</div>
+            </a>
+
+            <a href="texas-divorce.html" class="state-card">
+                <h3>📍 Texas Divorce</h3>
+                <div class="cost">Filing Fee: $250-$350</div>
+                <div class="timeline">⏱️ Timeline: 60+ days minimum</div>
+                <div class="features">✓ No-fault available<br>✓ Community property<br>✓ 6-month residency</div>
+            </a>
+
+            <a href="florida-divorce.html" class="state-card">
+                <h3>📍 Florida Divorce</h3>
+                <div class="cost">Filing Fee: $409</div>
+                <div class="timeline">⏱️ Timeline: 3-6 months</div>
+                <div class="features">✓ No-fault state<br>✓ Equitable distribution<br>✓ 6-month residency</div>
+            </a>
+
+            <a href="new-york-divorce.html" class="state-card">
+                <h3>📍 New York Divorce</h3>
+                <div class="cost">Filing Fee: $210-$335</div>
+                <div class="timeline">⏱️ Timeline: 3-12 months</div>
+                <div class="features">✓ No-fault available<br>✓ Equitable distribution<br>✓ 1-2 year residency</div>
+            </a>
+
+            <a href="illinois-divorce.html" class="state-card">
+                <h3>📍 Illinois Divorce</h3>
+                <div class="cost">Filing Fee: $337-$400</div>
+                <div class="timeline">⏱️ Timeline: 6+ months</div>
+                <div class="features">✓ No-fault state<br>✓ Equitable distribution<br>✓ 90-day residency</div>
+            </a>
+
+            <a href="pennsylvania-divorce.html" class="state-card">
+                <h3>📍 Pennsylvania Divorce</h3>
+                <div class="cost">Filing Fee: $300-$350</div>
+                <div class="timeline">⏱️ Timeline: 3-12 months</div>
+                <div class="features">✓ No-fault available<br>✓ Equitable distribution<br>✓ 6-month residency</div>
+            </a>
+        </div>
+
+        <!-- Ad Slot 2 -->
+        <div class="ad-slot">
+            [ Advertisement Slot - Google AdSense Placeholder ]
+        </div>
+
+        <div class="info-box">
+            <h3>⚠️ Important: When You Need a Lawyer</h3>
+            <p><strong>These guides are for uncontested, no-fault divorces.</strong> You may need an attorney if:</p>
+            <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                <li>Your spouse contests the divorce</li>
+                <li>You have complex property division issues</li>
+                <li>Child custody is disputed</li>
+                <li>There's domestic violence or abuse</li>
+                <li>Significant assets or debts are involved</li>
+            </ul>
+            <p style="margin-top: 0.5rem;"><strong>For simple, uncontested divorces where both parties agree, you can file yourself and save thousands in legal fees.</strong></p>
+        </div>
+
+        <h2 class="section-title">All 50 States</h2>
+        <p class="section-subtitle">Click your state for the complete divorce filing guide</p>
+
+        <div class="all-states">
+            <a href="alabama-divorce.html" class="state-link">Alabama</a>
+            <a href="alaska-divorce.html" class="state-link">Alaska</a>
+            <a href="arizona-divorce.html" class="state-link">Arizona</a>
+            <a href="arkansas-divorce.html" class="state-link">Arkansas</a>
+            <a href="california-divorce.html" class="state-link">California</a>
+            <a href="colorado-divorce.html" class="state-link">Colorado</a>
+            <a href="connecticut-divorce.html" class="state-link">Connecticut</a>
+            <a href="delaware-divorce.html" class="state-link">Delaware</a>
+            <a href="florida-divorce.html" class="state-link">Florida</a>
+            <a href="georgia-divorce.html" class="state-link">Georgia</a>
+            <a href="hawaii-divorce.html" class="state-link">Hawaii</a>
+            <a href="idaho-divorce.html" class="state-link">Idaho</a>
+            <a href="illinois-divorce.html" class="state-link">Illinois</a>
+            <a href="indiana-divorce.html" class="state-link">Indiana</a>
+            <a href="iowa-divorce.html" class="state-link">Iowa</a>
+            <a href="kansas-divorce.html" class="state-link">Kansas</a>
+            <a href="kentucky-divorce.html" class="state-link">Kentucky</a>
+            <a href="louisiana-divorce.html" class="state-link">Louisiana</a>
+            <a href="maine-divorce.html" class="state-link">Maine</a>
+            <a href="maryland-divorce.html" class="state-link">Maryland</a>
+            <a href="massachusetts-divorce.html" class="state-link">Massachusetts</a>
+            <a href="michigan-divorce.html" class="state-link">Michigan</a>
+            <a href="minnesota-divorce.html" class="state-link">Minnesota</a>
+            <a href="mississippi-divorce.html" class="state-link">Mississippi</a>
+            <a href="missouri-divorce.html" class="state-link">Missouri</a>
+            <a href="montana-divorce.html" class="state-link">Montana</a>
+            <a href="nebraska-divorce.html" class="state-link">Nebraska</a>
+            <a href="nevada-divorce.html" class="state-link">Nevada</a>
+            <a href="new-hampshire-divorce.html" class="state-link">New Hampshire</a>
+            <a href="new-jersey-divorce.html" class="state-link">New Jersey</a>
+            <a href="new-mexico-divorce.html" class="state-link">New Mexico</a>
+            <a href="new-york-divorce.html" class="state-link">New York</a>
+            <a href="north-carolina-divorce.html" class="state-link">North Carolina</a>
+            <a href="north-dakota-divorce.html" class="state-link">North Dakota</a>
+            <a href="ohio-divorce.html" class="state-link">Ohio</a>
+            <a href="oklahoma-divorce.html" class="state-link">Oklahoma</a>
+            <a href="oregon-divorce.html" class="state-link">Oregon</a>
+            <a href="pennsylvania-divorce.html" class="state-link">Pennsylvania</a>
+            <a href="rhode-island-divorce.html" class="state-link">Rhode Island</a>
+            <a href="south-carolina-divorce.html" class="state-link">South Carolina</a>
+            <a href="south-dakota-divorce.html" class="state-link">South Dakota</a>
+            <a href="tennessee-divorce.html" class="state-link">Tennessee</a>
+            <a href="texas-divorce.html" class="state-link">Texas</a>
+            <a href="utah-divorce.html" class="state-link">Utah</a>
+            <a href="vermont-divorce.html" class="state-link">Vermont</a>
+            <a href="virginia-divorce.html" class="state-link">Virginia</a>
+            <a href="washington-divorce.html" class="state-link">Washington</a>
+            <a href="west-virginia-divorce.html" class="state-link">West Virginia</a>
+            <a href="wisconsin-divorce.html" class="state-link">Wisconsin</a>
+            <a href="wyoming-divorce.html" class="state-link">Wyoming</a>
+        </div>
+    </div>
+
+    <!-- Ad Slot 3 -->
+    <div class="ad-slot">
+        [ Advertisement Slot - Google AdSense Placeholder ]
+    </div>
+
+    <footer>
+        <p>&copy; 2026 StateDivorceGuide.com | Free Divorce Filing Information for All 50 States</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Disclaimer: This site provides general information only. For legal advice, consult a licensed attorney in your state.</p>
+    </footer>
+</body>
+</html>
